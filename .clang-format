@@ -1,0 +1,15 @@
+---
+BasedOnStyle: Microsoft
+IndentWidth: 2
+InsertNewlineAtEOF: true
+---
+Language: Cpp
+DerivePointerAlignment: false
+PointerAlignment: Left
+FixNamespaceComments: true
+BreakConstructorInitializers: BeforeComma
+BreakBeforeBraces: Allman
+AllowShortEnumsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: true
+AllowShortLambdasOnASingleLine: true
+

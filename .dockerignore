@@ -1,0 +1,3 @@
+# The image only needs the build script; the source tree is mounted at run time.
+*
+!tools/docker-build.sh

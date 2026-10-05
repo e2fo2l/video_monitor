@@ -1,0 +1,22 @@
+# xmake
+.xmake/
+build/
+build-*/
+
+# Editor / clangd
+compile_commands.json
+.cache/
+.vscode/
+.idea/
+
+# Robot libraries and toolchains, in case they are unpacked inside the repo.
+# The robot's libraries are proprietary: never commit them.
+sysroot/
+aarch64--glibc--*/
+*.tar.bz2
+*.tar.xz
+debs/
+
+# Test artifacts
+*.h264
+*.mp4
